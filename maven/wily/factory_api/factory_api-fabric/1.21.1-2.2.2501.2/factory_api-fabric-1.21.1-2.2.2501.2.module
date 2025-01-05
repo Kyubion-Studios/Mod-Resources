@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "wily.factory_api",
+    "module": "factory_api-fabric",
+    "version": "1.21.1-2.2.2501.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.107.0+1.21.1"
+          }
+        },
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "4.1.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc.fabric-loader",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "factory_api-fabric-1.21.1-2.2.2501.2.jar",
+          "url": "factory_api-fabric-1.21.1-2.2.2501.2.jar",
+          "size": 392077,
+          "sha512": "e180689e67afd80f80e31e569788f534356a095e26865848a1fbbe5c8c1b57b4d31d311567d52d6ec2034db64d4b98ab805a123293017e4c9422633c4decf437",
+          "sha256": "6c56bf1ea74d5e6a477c8a67a53d8d8783306993b541c860bc517787e41beadc",
+          "sha1": "c0eec86ab5abd854a06b483bb694670aef361443",
+          "md5": "6de08494e2b07c91e5c2c93ad90c5ba2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.107.0+1.21.1"
+          }
+        },
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "4.1.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc.fabric-loader",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "factory_api-fabric-1.21.1-2.2.2501.2.jar",
+          "url": "factory_api-fabric-1.21.1-2.2.2501.2.jar",
+          "size": 392077,
+          "sha512": "e180689e67afd80f80e31e569788f534356a095e26865848a1fbbe5c8c1b57b4d31d311567d52d6ec2034db64d4b98ab805a123293017e4c9422633c4decf437",
+          "sha256": "6c56bf1ea74d5e6a477c8a67a53d8d8783306993b541c860bc517787e41beadc",
+          "sha1": "c0eec86ab5abd854a06b483bb694670aef361443",
+          "md5": "6de08494e2b07c91e5c2c93ad90c5ba2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "factory_api-fabric-1.21.1-2.2.2501.2-sources.jar",
+          "url": "factory_api-fabric-1.21.1-2.2.2501.2-sources.jar",
+          "size": 193700,
+          "sha512": "2c7cdf5a3ac56e8ee1c5830dd6b83777d7bcf896fa1568a4f229c4a9d5a6d7d08bf0c118c5b93cdcf2d2c94528ae2f858f34ae9b0c06414e7a36466e0d58189d",
+          "sha256": "6724bde2b54eb8e0b3b6c9720a177557a630481316cc80b7f279909441653884",
+          "sha1": "12d36c93e52046157d1dd33e29689804ec0e7fa8",
+          "md5": "4201e828ce175ca5c1ca4bd18f213f06"
+        }
+      ]
+    }
+  ]
+}
