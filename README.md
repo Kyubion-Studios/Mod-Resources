@@ -13,6 +13,6 @@ repositories {
 }
 
 dependencies {
-    modApi "<group>.<modId>:<mod_id>-<mod_loader>:<modVersion>"
+    modApi "<group>.<modId>:<mod_id>-<mod_loader>:<mod_version>"
 }
 ```
