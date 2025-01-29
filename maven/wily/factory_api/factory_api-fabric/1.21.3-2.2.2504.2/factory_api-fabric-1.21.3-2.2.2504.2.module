@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "wily.factory_api",
+    "module": "factory_api-fabric",
+    "version": "1.21.3-2.2.2504.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.108.0+1.21.3"
+          }
+        },
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "4.1.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc.fabric-loader",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "factory_api-fabric-1.21.3-2.2.2504.2.jar",
+          "url": "factory_api-fabric-1.21.3-2.2.2504.2.jar",
+          "size": 494774,
+          "sha512": "9e976528807246d664c97d9749d9a74ac2de8192e042b3bc304a6abf380197e2d01c7db83dc7b15bc2057eb3548fbfc18c68434ae89190ed1cc848e5ec461463",
+          "sha256": "57c18830cd940dfadb9ebdf2f5563ce5ee73d0eb4106b66243079affa5041e62",
+          "sha1": "446d8227a2afd30c436205d091cb4ab222a120c2",
+          "md5": "66b4cde418815fa7053276317880d7c8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.108.0+1.21.3"
+          }
+        },
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "4.1.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc.fabric-loader",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "factory_api-fabric-1.21.3-2.2.2504.2.jar",
+          "url": "factory_api-fabric-1.21.3-2.2.2504.2.jar",
+          "size": 494774,
+          "sha512": "9e976528807246d664c97d9749d9a74ac2de8192e042b3bc304a6abf380197e2d01c7db83dc7b15bc2057eb3548fbfc18c68434ae89190ed1cc848e5ec461463",
+          "sha256": "57c18830cd940dfadb9ebdf2f5563ce5ee73d0eb4106b66243079affa5041e62",
+          "sha1": "446d8227a2afd30c436205d091cb4ab222a120c2",
+          "md5": "66b4cde418815fa7053276317880d7c8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "factory_api-fabric-1.21.3-2.2.2504.2-sources.jar",
+          "url": "factory_api-fabric-1.21.3-2.2.2504.2-sources.jar",
+          "size": 230282,
+          "sha512": "5e9b0889298dea23bedcda2a1b509573d34837aefaf674b902aff3b64f135df545ff3f38ad464d1477f0d3e8e9c259cd347c28aa2e7919184aa58efcb43b05d2",
+          "sha256": "32e3185524a2676a7c729d61b23b61c51d26b83dc8f8bbd3f3f34eacd06300e2",
+          "sha1": "99450a84be5c86b357c6c21004404f2fdccd3914",
+          "md5": "d44bb4b88e8b9eb5382c8f6160922e34"
+        }
+      ]
+    }
+  ]
+}
