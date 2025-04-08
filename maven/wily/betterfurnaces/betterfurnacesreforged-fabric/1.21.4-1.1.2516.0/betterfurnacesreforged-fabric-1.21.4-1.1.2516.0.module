@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "wily.betterfurnaces",
+    "module": "betterfurnacesreforged-fabric",
+    "version": "1.21.4-1.1.2516.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-fabric",
+          "version": {
+            "requires": "1.21.4-2.2.3.2515.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.114.2+1.21.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "betterfurnacesreforged-fabric-1.21.4-1.1.2516.0.jar",
+          "url": "betterfurnacesreforged-fabric-1.21.4-1.1.2516.0.jar",
+          "size": 590717,
+          "sha512": "eff529edd48fd78944454a56bea388b1e1a347c8124485d022518e46541371124a9936b2d2c6d51f31315663109a9c5e1e194ac07293d97fe0f9769ec42bf9cf",
+          "sha256": "9a70323e8ee4ef1c5a8be7a958b595174a5d520e169ee7c2ae7427a20718661c",
+          "sha1": "ea84c8ddf9ea17f2238f1d9d870bbdc8074ccfeb",
+          "md5": "283631692538d4ee960c16f1b3d28687"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-fabric",
+          "version": {
+            "requires": "1.21.4-2.2.3.2515.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.114.2+1.21.4"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "betterfurnacesreforged-fabric-1.21.4-1.1.2516.0.jar",
+          "url": "betterfurnacesreforged-fabric-1.21.4-1.1.2516.0.jar",
+          "size": 590717,
+          "sha512": "eff529edd48fd78944454a56bea388b1e1a347c8124485d022518e46541371124a9936b2d2c6d51f31315663109a9c5e1e194ac07293d97fe0f9769ec42bf9cf",
+          "sha256": "9a70323e8ee4ef1c5a8be7a958b595174a5d520e169ee7c2ae7427a20718661c",
+          "sha1": "ea84c8ddf9ea17f2238f1d9d870bbdc8074ccfeb",
+          "md5": "283631692538d4ee960c16f1b3d28687"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "betterfurnacesreforged-fabric-1.21.4-1.1.2516.0-sources.jar",
+          "url": "betterfurnacesreforged-fabric-1.21.4-1.1.2516.0-sources.jar",
+          "size": 533924,
+          "sha512": "6ca4182a0f855e5274a7d57fb64157ca4715860000f69347d9a10108e821035c0f771c46fbd7d8b581b8588d01aa8f7a8b2cdcb5b3fc74f00d9204b514d02613",
+          "sha256": "ee4066369730fe1c427c429472576ab772b2a82dd4008b6509be444b2cce11e2",
+          "sha1": "a259d97b76587bf88eb7c6e7f196da41623057d2",
+          "md5": "e30dcdd1d6d20440b59e28fdb3a89ee1"
+        }
+      ]
+    }
+  ]
+}
