@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "wily.betterfurnaces",
+    "module": "betterfurnacesreforged-fabric",
+    "version": "1.20.4-1.1.2516.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-fabric",
+          "version": {
+            "requires": "1.20.4-2.2.3.2516.6"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.97.1+1.20.4"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.4-fabric-api",
+          "version": {
+            "requires": "17.3.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "betterfurnacesreforged-fabric-1.20.4-1.1.2516.3.jar",
+          "url": "betterfurnacesreforged-fabric-1.20.4-1.1.2516.3.jar",
+          "size": 640697,
+          "sha512": "db69889f67c633b9899449285afc3cc4f52e256fca9a30765b5984faa4e72a96f760412fcec33dc96aecf3991a8bdde9168bb6e47b594ba25e3235e31185b2b9",
+          "sha256": "618be0b6dfe79e67be09054ccad5e7ff3fe453d46b7eb67a470554cb2b5459f4",
+          "sha1": "d73ba57066ad476895b6ebe3fb6ad320868aa413",
+          "md5": "5199aaa7bf580311df87b702de6a1cdd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-fabric",
+          "version": {
+            "requires": "1.20.4-2.2.3.2516.6"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.97.1+1.20.4"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.4-fabric",
+          "version": {
+            "requires": "17.3.1.5"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "betterfurnacesreforged-fabric-1.20.4-1.1.2516.3.jar",
+          "url": "betterfurnacesreforged-fabric-1.20.4-1.1.2516.3.jar",
+          "size": 640697,
+          "sha512": "db69889f67c633b9899449285afc3cc4f52e256fca9a30765b5984faa4e72a96f760412fcec33dc96aecf3991a8bdde9168bb6e47b594ba25e3235e31185b2b9",
+          "sha256": "618be0b6dfe79e67be09054ccad5e7ff3fe453d46b7eb67a470554cb2b5459f4",
+          "sha1": "d73ba57066ad476895b6ebe3fb6ad320868aa413",
+          "md5": "5199aaa7bf580311df87b702de6a1cdd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "betterfurnacesreforged-fabric-1.20.4-1.1.2516.3-sources.jar",
+          "url": "betterfurnacesreforged-fabric-1.20.4-1.1.2516.3-sources.jar",
+          "size": 583778,
+          "sha512": "af8692ee01e54ddc2fba787f12bd73e705203cc7e9f28bbf1adf8bb87dada9480730c2c79240c2b7e09db4927183b53bfa354529f872fb332d87333c5f5152f6",
+          "sha256": "f55aa8140c06a32428aa02fb148e244170584966198e135d7f2e5be894de95dd",
+          "sha1": "ecf96790e115bc69123e35c075248f3abf2c1a01",
+          "md5": "165ab60dbd713de6cf8fbcda5ed11ed4"
+        }
+      ]
+    }
+  ]
+}
