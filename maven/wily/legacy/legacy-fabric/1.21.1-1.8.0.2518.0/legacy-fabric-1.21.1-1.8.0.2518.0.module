@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "wily.legacy",
+    "module": "legacy-fabric",
+    "version": "1.21.1-1.8.0.2518.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.1.9.075c033-66"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-fabric",
+          "version": {
+            "requires": "1.21.1-2.2.3.2518.0"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.107.0+1.21.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-fabric-api",
+          "version": {
+            "requires": "19.21.0.247"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-fabric-1.21.1-1.8.0.2518.0.jar",
+          "url": "legacy-fabric-1.21.1-1.8.0.2518.0.jar",
+          "size": 19749144,
+          "sha512": "009e9144a433f45a10f645e0d1f68777e7299a2c2858a24e93285d36c55b75312d1e4aa64a884520e34da2ca4b5ca84adfa2af42d73fa9e7edd8c948189a4d12",
+          "sha256": "51474323c4566708f44296416905d42605c305ba41ca85600dabef513eb4e738",
+          "sha1": "7a35d62ca05ec23f5a7c7f2abfeb9b74a2bfe5ce",
+          "md5": "32773fc6aa2cac00b4f25ec22b0f9ce6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.1.9.075c033-66"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-fabric",
+          "version": {
+            "requires": "1.21.1-2.2.3.2518.0"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.107.0+1.21.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-fabric-1.21.1-1.8.0.2518.0.jar",
+          "url": "legacy-fabric-1.21.1-1.8.0.2518.0.jar",
+          "size": 19749144,
+          "sha512": "009e9144a433f45a10f645e0d1f68777e7299a2c2858a24e93285d36c55b75312d1e4aa64a884520e34da2ca4b5ca84adfa2af42d73fa9e7edd8c948189a4d12",
+          "sha256": "51474323c4566708f44296416905d42605c305ba41ca85600dabef513eb4e738",
+          "sha1": "7a35d62ca05ec23f5a7c7f2abfeb9b74a2bfe5ce",
+          "md5": "32773fc6aa2cac00b4f25ec22b0f9ce6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "legacy-fabric-1.21.1-1.8.0.2518.0-sources.jar",
+          "url": "legacy-fabric-1.21.1-1.8.0.2518.0-sources.jar",
+          "size": 18893251,
+          "sha512": "1c80d149ef562d2bbf947779629601016240ab995f704bf4661bebe505392be0803bec257d712e0f36bd6cf5962f2dd9a4c3bb058ffef1338e19cf874ff77be9",
+          "sha256": "49f3cc276fd572976c7ad0a6051eb59a494f666d4ed49897536116def24e4928",
+          "sha1": "0e235e4efadb8e6c4b2ab37402c65cebe7d4d007",
+          "md5": "fd018399a68540eafa453b2cbdd82367"
+        }
+      ]
+    }
+  ]
+}
