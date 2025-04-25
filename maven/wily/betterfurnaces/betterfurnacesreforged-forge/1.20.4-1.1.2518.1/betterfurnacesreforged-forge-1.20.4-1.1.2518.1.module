@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "wily.betterfurnaces",
+    "module": "betterfurnacesreforged-forge",
+    "version": "1.20.4-1.1.2518.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-forge",
+          "version": {
+            "requires": "1.20.4-2.2.3.2518.0"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.4-forge-api",
+          "version": {
+            "requires": "17.3.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "betterfurnacesreforged-forge-1.20.4-1.1.2518.1.jar",
+          "url": "betterfurnacesreforged-forge-1.20.4-1.1.2518.1.jar",
+          "size": 644982,
+          "sha512": "c43267a1c0840f12b4bd2aefe495302adc2306b1e27e66aad1ed29e8f44c84e2b1737be31870fd6636db5cefc62b81e2517886bedeaf56943cbea3f67b899714",
+          "sha256": "287e3ed3709dbfcea1fbbe2822a9f26aa51d32b341ab68dddfd5e1211b8b4c07",
+          "sha1": "f8a554b6c0e5f9c1e4cb52dbb02f23254077190b",
+          "md5": "d7d37e361fc82ba55002d71748cfecb7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-forge",
+          "version": {
+            "requires": "1.20.4-2.2.3.2518.0"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.4-forge",
+          "version": {
+            "requires": "17.3.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "betterfurnacesreforged-forge-1.20.4-1.1.2518.1.jar",
+          "url": "betterfurnacesreforged-forge-1.20.4-1.1.2518.1.jar",
+          "size": 644982,
+          "sha512": "c43267a1c0840f12b4bd2aefe495302adc2306b1e27e66aad1ed29e8f44c84e2b1737be31870fd6636db5cefc62b81e2517886bedeaf56943cbea3f67b899714",
+          "sha256": "287e3ed3709dbfcea1fbbe2822a9f26aa51d32b341ab68dddfd5e1211b8b4c07",
+          "sha1": "f8a554b6c0e5f9c1e4cb52dbb02f23254077190b",
+          "md5": "d7d37e361fc82ba55002d71748cfecb7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "betterfurnacesreforged-forge-1.20.4-1.1.2518.1-sources.jar",
+          "url": "betterfurnacesreforged-forge-1.20.4-1.1.2518.1-sources.jar",
+          "size": 586294,
+          "sha512": "3fa063aae6aaab12b45a124969d298b78d97a364d511a8f74ee7f32a19c42ec3a9ebf62dc5c6a04e97521f2b7f51eacaeebc8829018cd978a66a869c42bf05c0",
+          "sha256": "49841a678abb5aa08dda2644e45e3b886664f534824d812edcd2b18afc9bf36f",
+          "sha1": "54ceb9ee027cb3dcf16276803982cd5915cf4c3d",
+          "md5": "0ca00842f4534385b37bc9f2ff285160"
+        }
+      ]
+    }
+  ]
+}
