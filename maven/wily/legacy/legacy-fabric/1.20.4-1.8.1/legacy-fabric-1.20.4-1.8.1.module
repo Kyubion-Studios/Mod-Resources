@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "wily.legacy",
+    "module": "legacy-fabric",
+    "version": "1.20.4-1.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.1.9.075c033-66"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-fabric",
+          "version": {
+            "requires": "1.20.4-2.2.4"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.96.4+1.20.4"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.4-fabric-api",
+          "version": {
+            "requires": "17.3.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-fabric-1.20.4-1.8.1.jar",
+          "url": "legacy-fabric-1.20.4-1.8.1.jar",
+          "size": 19702689,
+          "sha512": "123d0715ed58746b4fe60fd5329cd10b17ad1ff8a5c3ee34ab2ad53968e7df1ad90f68c6e02b175de25a65821c003eb0a3163d699334a25213d4ced8db6ffcac",
+          "sha256": "89d0f945866315d562ee3023ca8511bbd56954ad823c81bd60217b1888b55539",
+          "sha1": "831c9de0e526c0acfeaab03b8f6715e62a90a26b",
+          "md5": "aa5efb4369ea5c6b6d4f68f039e7cfb5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.1.9.075c033-66"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-fabric",
+          "version": {
+            "requires": "1.20.4-2.2.4"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.96.4+1.20.4"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.7"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "9.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-fabric-1.20.4-1.8.1.jar",
+          "url": "legacy-fabric-1.20.4-1.8.1.jar",
+          "size": 19702689,
+          "sha512": "123d0715ed58746b4fe60fd5329cd10b17ad1ff8a5c3ee34ab2ad53968e7df1ad90f68c6e02b175de25a65821c003eb0a3163d699334a25213d4ced8db6ffcac",
+          "sha256": "89d0f945866315d562ee3023ca8511bbd56954ad823c81bd60217b1888b55539",
+          "sha1": "831c9de0e526c0acfeaab03b8f6715e62a90a26b",
+          "md5": "aa5efb4369ea5c6b6d4f68f039e7cfb5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "legacy-fabric-1.20.4-1.8.1-sources.jar",
+          "url": "legacy-fabric-1.20.4-1.8.1-sources.jar",
+          "size": 18848121,
+          "sha512": "b98d8a87160ed85f12ce065d67ea4d7cb7bd956407ed2990e54b03af3b8a0fa177d3ba5b15c7282b021dba21a9a40734b5542b04e64af6301683cb084dbbaf14",
+          "sha256": "8decfb7ef7023c3a220b8c5bc66dbdaf161e95ca4b1f82de5a1804ccbcb227e3",
+          "sha1": "94346ff9fdc84f22a9bc39f232806547cac1886e",
+          "md5": "e3820dff379a7e4a56f7ecd985986f08"
+        }
+      ]
+    }
+  ]
+}
