@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "wily.legacy",
+    "module": "legacy-fabric",
+    "version": "1.21.1-1.8.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.1.9.075c033-66"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-fabric",
+          "version": {
+            "requires": "1.21.1-2.2.5"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.107.0+1.21.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-fabric-api",
+          "version": {
+            "requires": "19.21.0.247"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-fabric-1.21.1-1.8.2.jar",
+          "url": "legacy-fabric-1.21.1-1.8.2.jar",
+          "size": 19730132,
+          "sha512": "6a88352773c5139c06c2cf4704bd5f2362d559f66bac7d1c38087b47a9a3297d52e2667d7da32633f383f60f8af5097edd1b1af30f701ba4a8218e81886972c1",
+          "sha256": "d8e4d15d7f7714c81595a041403c82d8bd671a7010ec7442d40ac4692123e1ac",
+          "sha1": "51c3b0e85bbca94f5a96cd9d5a501f85c3296d6f",
+          "md5": "62cf0a17cbcfd79c6b23d0e1973b412e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.1.9.075c033-66"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-fabric",
+          "version": {
+            "requires": "1.21.1-2.2.5"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.107.0+1.21.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-fabric-1.21.1-1.8.2.jar",
+          "url": "legacy-fabric-1.21.1-1.8.2.jar",
+          "size": 19730132,
+          "sha512": "6a88352773c5139c06c2cf4704bd5f2362d559f66bac7d1c38087b47a9a3297d52e2667d7da32633f383f60f8af5097edd1b1af30f701ba4a8218e81886972c1",
+          "sha256": "d8e4d15d7f7714c81595a041403c82d8bd671a7010ec7442d40ac4692123e1ac",
+          "sha1": "51c3b0e85bbca94f5a96cd9d5a501f85c3296d6f",
+          "md5": "62cf0a17cbcfd79c6b23d0e1973b412e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "legacy-fabric-1.21.1-1.8.2-sources.jar",
+          "url": "legacy-fabric-1.21.1-1.8.2-sources.jar",
+          "size": 18864910,
+          "sha512": "c2ba2be59d42b17b76c22fa1984a640de39ff0b02a2bab238eeafb4a2560ac0ca47fbb0d90b4fab40c65fa8e8eaa2eb2303d0595df8dc27d89778612f9d2aa03",
+          "sha256": "f2b5efe9af6ba142e11ee51a90653d8dcd1b0d21407fa57f58d504f2df7f5b6d",
+          "sha1": "569e00bbf81b06e037e684f6eff2e19fda501e01",
+          "md5": "e364bf603abda5550a8cf6ddc3acb530"
+        }
+      ]
+    }
+  ]
+}
