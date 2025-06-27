@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "wily.legacy",
+    "module": "legacy-fabric",
+    "version": "1.20.1-1.8.2.2526.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.1.9.075c033-66"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-fabric",
+          "version": {
+            "requires": "1.20.1-2.2.5"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.2+1.20.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.106"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-fabric-1.20.1-1.8.2.2526.0.jar",
+          "url": "legacy-fabric-1.20.1-1.8.2.2526.0.jar",
+          "size": 19736656,
+          "sha512": "394e14e6dbbd414ef0e2b18706db1b0032fd3a51ac19947cd3c48e538cb70fbc0b38e55136886fef96b51562d0acc6b12cb330be90ae1c8df6bcd51d81ac452a",
+          "sha256": "1244af9a397c16152b880db831d9752e6c3a02e40126c5e1c5ee68f7430fea01",
+          "sha1": "9c6446c039e4a72fbf02feaa488951ed871ae48c",
+          "md5": "28fc333ef989e875572b2dd0c25da467"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.1.9.075c033-66"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-fabric",
+          "version": {
+            "requires": "1.20.1-2.2.5"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.2+1.20.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.7"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-fabric-1.20.1-1.8.2.2526.0.jar",
+          "url": "legacy-fabric-1.20.1-1.8.2.2526.0.jar",
+          "size": 19736656,
+          "sha512": "394e14e6dbbd414ef0e2b18706db1b0032fd3a51ac19947cd3c48e538cb70fbc0b38e55136886fef96b51562d0acc6b12cb330be90ae1c8df6bcd51d81ac452a",
+          "sha256": "1244af9a397c16152b880db831d9752e6c3a02e40126c5e1c5ee68f7430fea01",
+          "sha1": "9c6446c039e4a72fbf02feaa488951ed871ae48c",
+          "md5": "28fc333ef989e875572b2dd0c25da467"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "legacy-fabric-1.20.1-1.8.2.2526.0-sources.jar",
+          "url": "legacy-fabric-1.20.1-1.8.2.2526.0-sources.jar",
+          "size": 18875455,
+          "sha512": "9aeabd30d99aae8bb3623c8d083a433227e70df43d76442c29ad4c28e6ca82c43ceab5abfdea504bf9a47e964e23eaa299996b1a5d6ef43119ec40fa2e86fff6",
+          "sha256": "e77b9f5dfdab95a2995cf45be3d59da43a228e548d4cf81b899d88f0579e05ef",
+          "sha1": "f42cba6e935c610d233769c01d638cd40eb1ec18",
+          "md5": "73b099ae0a2531bc28af4bce23b79b95"
+        }
+      ]
+    }
+  ]
+}
