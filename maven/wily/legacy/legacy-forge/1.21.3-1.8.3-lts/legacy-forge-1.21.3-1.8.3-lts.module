@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "wily.legacy",
+    "module": "legacy-forge",
+    "version": "1.21.3-1.8.3-lts",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.1.9.075c033-66"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-forge",
+          "version": {
+            "requires": "1.21.3-2.2.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-forge-1.21.3-1.8.3-lts.jar",
+          "url": "legacy-forge-1.21.3-1.8.3-lts.jar",
+          "size": 19892349,
+          "sha512": "ff87dc229626322f0944e574277cced3c8a0651801d7d3cd235d29a268914d9cb91190145032245bd6e340936822122622e084a4ee4a08019a1535a567ef8e45",
+          "sha256": "b17458d516b235ae208fa329f4bf9157fe89db133877234ae98a9ea0c26f27fb",
+          "sha1": "df93699b03cb057136a671bcd37569158542c135",
+          "md5": "ac46e83fa72ecb941a5de71907249faf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.1.9.075c033-66"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-forge",
+          "version": {
+            "requires": "1.21.3-2.2.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-forge-1.21.3-1.8.3-lts.jar",
+          "url": "legacy-forge-1.21.3-1.8.3-lts.jar",
+          "size": 19892349,
+          "sha512": "ff87dc229626322f0944e574277cced3c8a0651801d7d3cd235d29a268914d9cb91190145032245bd6e340936822122622e084a4ee4a08019a1535a567ef8e45",
+          "sha256": "b17458d516b235ae208fa329f4bf9157fe89db133877234ae98a9ea0c26f27fb",
+          "sha1": "df93699b03cb057136a671bcd37569158542c135",
+          "md5": "ac46e83fa72ecb941a5de71907249faf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "legacy-forge-1.21.3-1.8.3-lts-sources.jar",
+          "url": "legacy-forge-1.21.3-1.8.3-lts-sources.jar",
+          "size": 19024501,
+          "sha512": "accaea73a804336219cf3480108194cacbe358a69ef3cb4b0e34b60b31bed797dff863a17624f512c83a096acf580b13ee8fb294fb9f6303117f0c10414e7a86",
+          "sha256": "77e02ea327b2f92e02c03fd89f22ab46b13cd053fc02d15d8bf9ff090be5e887",
+          "sha1": "ae86139d5b49e99044972c0511da33db767f62cb",
+          "md5": "9fb919a3658916cdf560dc120e5b18f9"
+        }
+      ]
+    }
+  ]
+}

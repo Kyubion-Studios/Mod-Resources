@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "wily.legacy",
+    "module": "legacy-neoforge",
+    "version": "1.21.1-1.8.3-lts",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.1.9.075c033-66"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-neoforge",
+          "version": {
+            "requires": "1.21.1-2.2.5"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-neoforge-api",
+          "version": {
+            "requires": "19.21.0.247"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-neoforge-1.21.1-1.8.3-lts.jar",
+          "url": "legacy-neoforge-1.21.1-1.8.3-lts.jar",
+          "size": 19919351,
+          "sha512": "9f3ce0c0c32499485fd3666d29567c2fa3fdd305d4847a1ed64e486aa459c70d5a9cb1b4653a3cc2a38b3b76cc8dfe672eb6038b008c605f57e95f59c8b8ba59",
+          "sha256": "2d991b7c474bbac80cee5f2d442a570ac9ca4b635b3017ebf004681a44e81ad6",
+          "sha1": "c8fd1815a319c31a9f7a7a84f67bd9cc6e4eb6ed",
+          "md5": "f36792a92c23c48431326c9db86d2a67"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.1.9.075c033-66"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-neoforge",
+          "version": {
+            "requires": "1.21.1-2.2.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-neoforge-1.21.1-1.8.3-lts.jar",
+          "url": "legacy-neoforge-1.21.1-1.8.3-lts.jar",
+          "size": 19919351,
+          "sha512": "9f3ce0c0c32499485fd3666d29567c2fa3fdd305d4847a1ed64e486aa459c70d5a9cb1b4653a3cc2a38b3b76cc8dfe672eb6038b008c605f57e95f59c8b8ba59",
+          "sha256": "2d991b7c474bbac80cee5f2d442a570ac9ca4b635b3017ebf004681a44e81ad6",
+          "sha1": "c8fd1815a319c31a9f7a7a84f67bd9cc6e4eb6ed",
+          "md5": "f36792a92c23c48431326c9db86d2a67"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "legacy-neoforge-1.21.1-1.8.3-lts-sources.jar",
+          "url": "legacy-neoforge-1.21.1-1.8.3-lts-sources.jar",
+          "size": 19024881,
+          "sha512": "e0faee3a6a05e6838a72aed715b4e7c1d1e6217c1e657dbed927647e0561b406f21ee917103cb630ced61f16723933fd5822df67e65f3fe7953db96976fd0053",
+          "sha256": "eadd55822f5d34760aa48168e4627687939968c43721a3e06c7a69ef5a1d0479",
+          "sha1": "2db91b3703f4756c7abbd6aff69ca6f99568126c",
+          "md5": "8302f7ebe4fd7ea7b61a569685be8a26"
+        }
+      ]
+    }
+  ]
+}

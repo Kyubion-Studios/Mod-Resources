@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "wily.legacy",
+    "module": "legacy-fabric",
+    "version": "1.21.1-1.8.3-lts",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.1.9.075c033-66"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-fabric",
+          "version": {
+            "requires": "1.21.1-2.2.5"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.107.0+1.21.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-fabric-api",
+          "version": {
+            "requires": "19.21.0.247"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-fabric-1.21.1-1.8.3-lts.jar",
+          "url": "legacy-fabric-1.21.1-1.8.3-lts.jar",
+          "size": 19885239,
+          "sha512": "68036a5dd16f7807d07c3dd2a405fb979354b23e7a323bef45b941c4591ec0da16cbd092f52501a0478c113c015c492cd74835314156bfe1150d513096e430a7",
+          "sha256": "bba3d1b8e3fdfa508a540ac79faba8fe0770ed693effcfda7ed9d686c2ff9589",
+          "sha1": "6ade7742a6d6f88b8f8b9dc025c48d870894989a",
+          "md5": "118961c9fb96c6502bdc2ea64a52a658"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.1.9.075c033-66"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-fabric",
+          "version": {
+            "requires": "1.21.1-2.2.5"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.107.0+1.21.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-fabric-1.21.1-1.8.3-lts.jar",
+          "url": "legacy-fabric-1.21.1-1.8.3-lts.jar",
+          "size": 19885239,
+          "sha512": "68036a5dd16f7807d07c3dd2a405fb979354b23e7a323bef45b941c4591ec0da16cbd092f52501a0478c113c015c492cd74835314156bfe1150d513096e430a7",
+          "sha256": "bba3d1b8e3fdfa508a540ac79faba8fe0770ed693effcfda7ed9d686c2ff9589",
+          "sha1": "6ade7742a6d6f88b8f8b9dc025c48d870894989a",
+          "md5": "118961c9fb96c6502bdc2ea64a52a658"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "legacy-fabric-1.21.1-1.8.3-lts-sources.jar",
+          "url": "legacy-fabric-1.21.1-1.8.3-lts-sources.jar",
+          "size": 19014252,
+          "sha512": "cba2fa1d9be3753503b26c34b28433051f17d05ba72405a7445f78e077e650feabdad247a24220326c569b382b12865cd9441111c9adc97fc49895e84854185c",
+          "sha256": "023e1baca3faeb542d8ef8946aa790700c707a4d1f4fe72f9ab51be71669f0ff",
+          "sha1": "3c1f4fe33070e6de24e47a03b3c99274e4d34fb4",
+          "md5": "41433f26c75f3ec1fe5a84d23402a0e5"
+        }
+      ]
+    }
+  ]
+}
