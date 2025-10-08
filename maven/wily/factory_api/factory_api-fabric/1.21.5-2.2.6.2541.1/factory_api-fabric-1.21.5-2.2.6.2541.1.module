@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "wily.factory_api",
+    "module": "factory_api-fabric",
+    "version": "1.21.5-2.2.6.2541.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.119.5+1.21.5"
+          },
+          "excludes": [
+            {
+              "group": "io.github.juuxel",
+              "module": "unprotect"
+            }
+          ]
+        },
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "4.1.0"
+          },
+          "excludes": [
+            {
+              "group": "io.github.juuxel",
+              "module": "unprotect"
+            },
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc.fabric-loader",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "factory_api-fabric-1.21.5-2.2.6.2541.1.jar",
+          "url": "factory_api-fabric-1.21.5-2.2.6.2541.1.jar",
+          "size": 566386,
+          "sha512": "3c9e09cb6e0bc506f0980f0e2ee60d3f259fcd225a101fbc1fcb5ffa6544de24ab58059d54f68b3ae4bd05dbce26b95613cd83aa04f56e354b3f4eb26365fd3c",
+          "sha256": "76ccb5f5ffe8584edfeac784cac169c52ca4a07d0a397d76db488c85803b1de4",
+          "sha1": "9a1d1e86935fd1ffbea3f2baa9a6c2f4446c3cb4",
+          "md5": "aaabbb80150934f81213d334fd639966"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.119.5+1.21.5"
+          },
+          "excludes": [
+            {
+              "group": "io.github.juuxel",
+              "module": "unprotect"
+            }
+          ]
+        },
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "4.1.0"
+          },
+          "excludes": [
+            {
+              "group": "io.github.juuxel",
+              "module": "unprotect"
+            },
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc.fabric-loader",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          },
+          "excludes": [
+            {
+              "group": "io.github.juuxel",
+              "module": "unprotect"
+            }
+          ]
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "14.0.0-rc.2"
+          },
+          "excludes": [
+            {
+              "group": "io.github.juuxel",
+              "module": "unprotect"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "factory_api-fabric-1.21.5-2.2.6.2541.1.jar",
+          "url": "factory_api-fabric-1.21.5-2.2.6.2541.1.jar",
+          "size": 566386,
+          "sha512": "3c9e09cb6e0bc506f0980f0e2ee60d3f259fcd225a101fbc1fcb5ffa6544de24ab58059d54f68b3ae4bd05dbce26b95613cd83aa04f56e354b3f4eb26365fd3c",
+          "sha256": "76ccb5f5ffe8584edfeac784cac169c52ca4a07d0a397d76db488c85803b1de4",
+          "sha1": "9a1d1e86935fd1ffbea3f2baa9a6c2f4446c3cb4",
+          "md5": "aaabbb80150934f81213d334fd639966"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "factory_api-fabric-1.21.5-2.2.6.2541.1-sources.jar",
+          "url": "factory_api-fabric-1.21.5-2.2.6.2541.1-sources.jar",
+          "size": 265952,
+          "sha512": "cf533f047c00966d31d6584bd704fa8cabf5c2d131db92bbc0f92b4d63a748e801137158598b43bec7e96ceea1f04f8ba78854a90c45d89a5f382c0acb464625",
+          "sha256": "8efe9e8bfc4a27e9c2fdf8ae75b4b48d16ad22d83cdc2bef0e02bd354866def5",
+          "sha1": "4b7bb24fc302a5d93395178039bacd5163c6f888",
+          "md5": "11cf1875065f81138bea27a5722c6049"
+        }
+      ]
+    }
+  ]
+}
