@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>wily.factory_api</groupId>
+  <artifactId>factory_api-forge</artifactId>
+  <version>1.21.10-2.2.7</version>
+  <name>Factory API [Forge]</name>
+  <description>An API that is the basis for mods like Legacy4J, Factocrafty and Better Furnaces Reforged, that work on different mod loaders.</description>
+  <url>https://github.com/Wilyicaro/FactoryAPI</url>
+  <licenses>
+    <license>
+      <name>MPL-2</name>
+      <url>https://www.mozilla.org/en-US/MPL/2.0/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wilyicaro</id>
+      <name>Wilyicaro</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Wilyicaro/FactoryAPI.git</connection>
+    <developerConnection>scm:git:git@github.com:Wilyicaro/FactoryAPI.git</developerConnection>
+    <url>https://github.com/Wilyicaro/FactoryAPI</url>
+  </scm>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/Wilyicaro/FactoryAPI/Issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.llamalad7</groupId>
+      <artifactId>mixinextras-forge</artifactId>
+      <version>0.4.1</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>io.github.juuxel</groupId>
+          <artifactId>unprotect</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>
