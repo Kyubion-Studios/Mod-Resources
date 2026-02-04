@@ -1,0 +1,95 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "wily.factory_api",
+    "module": "factory_api-forge",
+    "version": "1.21.10-2.2.7.2606.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "factory_api-forge-1.21.10-2.2.7.2606.1.jar",
+          "url": "factory_api-forge-1.21.10-2.2.7.2606.1.jar",
+          "size": 726744,
+          "sha512": "528c92b8be862f7a8302b3927fb7414b20760a121fbb48b87227f22ee6cb2da16f75c205bc739291a5682eb0a2535283d843b52d56217849f26ee76d008a0ced",
+          "sha256": "4368013d6e060f7dd38533b530e492092b71808253b3f023263f44d3e3ae9ccb",
+          "sha1": "0ea8ecdc1f9601b7efcdb4a296049a0e7defd54a",
+          "md5": "03f6b1e77683e1e855b6846f4f75e675"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-forge",
+          "version": {
+            "requires": "0.4.1"
+          },
+          "excludes": [
+            {
+              "group": "io.github.juuxel",
+              "module": "unprotect"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "factory_api-forge-1.21.10-2.2.7.2606.1.jar",
+          "url": "factory_api-forge-1.21.10-2.2.7.2606.1.jar",
+          "size": 726744,
+          "sha512": "528c92b8be862f7a8302b3927fb7414b20760a121fbb48b87227f22ee6cb2da16f75c205bc739291a5682eb0a2535283d843b52d56217849f26ee76d008a0ced",
+          "sha256": "4368013d6e060f7dd38533b530e492092b71808253b3f023263f44d3e3ae9ccb",
+          "sha1": "0ea8ecdc1f9601b7efcdb4a296049a0e7defd54a",
+          "md5": "03f6b1e77683e1e855b6846f4f75e675"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "factory_api-forge-1.21.10-2.2.7.2606.1-sources.jar",
+          "url": "factory_api-forge-1.21.10-2.2.7.2606.1-sources.jar",
+          "size": 256289,
+          "sha512": "635887a064b20dd7fde55b3ebe3227c1a6e23bf64b868628a86d3fbab02ec876225881e7b5370979b4a4d84eb654325c955f362a91aa90a90e3c4815abc389bc",
+          "sha256": "5e3be9e31be4c5f859c5618b2029ec9d1f9293b6d34c33d037ac2881435caab4",
+          "sha1": "391f5efa4317924144d342735050c58bf41b36a7",
+          "md5": "6df4f33217755698a71876c16a5d16e1"
+        }
+      ]
+    }
+  ]
+}
