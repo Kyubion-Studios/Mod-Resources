@@ -1,0 +1,214 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "wily.legacy",
+    "module": "legacy-fabric",
+    "version": "1.21.11-1.9-pre-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.14"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpcore",
+          "version": {
+            "requires": "4.4.16"
+          }
+        },
+        {
+          "group": "commons-logging",
+          "module": "commons-logging",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.2.18.release-3.2.18-79"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-fabric",
+          "version": {
+            "requires": "1.21.11-2.2.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-fabric-1.21.11-1.9-pre-1.jar",
+          "url": "legacy-fabric-1.21.11-1.9-pre-1.jar",
+          "size": 46468606,
+          "sha512": "5e21e9f824fc749e92a4fa17b89ef3b2e0333a9a57507b497f558c50a56fa13c09ca6e21afc4e80db3f262644e6e8883f634897c90de4fc0d82b412dba21f71e",
+          "sha256": "8927de2ede4fcf5a267e904fd7b33ce6e80b074a0d229cb0f7b10e3303f29e64",
+          "sha1": "de23b4fa59a8d64ef25408c16a6ea94e8214b71b",
+          "md5": "106b8f9befb1fc49d0d74094f9cb081e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.moulberry",
+          "module": "mixinconstraints",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.14"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpcore",
+          "version": {
+            "requires": "4.4.16"
+          }
+        },
+        {
+          "group": "commons-logging",
+          "module": "commons-logging",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.2.18.release-3.2.18-79"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-fabric",
+          "version": {
+            "requires": "1.21.11-2.2.8"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.6"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.141.1+1.21.11"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "17.0.0-beta.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-fabric-1.21.11-1.9-pre-1.jar",
+          "url": "legacy-fabric-1.21.11-1.9-pre-1.jar",
+          "size": 46468606,
+          "sha512": "5e21e9f824fc749e92a4fa17b89ef3b2e0333a9a57507b497f558c50a56fa13c09ca6e21afc4e80db3f262644e6e8883f634897c90de4fc0d82b412dba21f71e",
+          "sha256": "8927de2ede4fcf5a267e904fd7b33ce6e80b074a0d229cb0f7b10e3303f29e64",
+          "sha1": "de23b4fa59a8d64ef25408c16a6ea94e8214b71b",
+          "md5": "106b8f9befb1fc49d0d74094f9cb081e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "legacy-fabric-1.21.11-1.9-pre-1-sources.jar",
+          "url": "legacy-fabric-1.21.11-1.9-pre-1-sources.jar",
+          "size": 43475111,
+          "sha512": "4ef1f978ec111e3e8d3254eeba2a36f387ce2993be29275c0e29518c00c5cc7fd158aa0570c4540e21ebf7d75733948e14619beddb935efa73ad67e9accf536e",
+          "sha256": "cc3d26fb19866529518d65750f50ed8ffa50616dd2695e98d2582ddf65b8db42",
+          "sha1": "c4257bef92525529a547b22c9e721b3609d73dc5",
+          "md5": "73e0f6b2962d72a252cbb132af270e94"
+        }
+      ]
+    }
+  ]
+}

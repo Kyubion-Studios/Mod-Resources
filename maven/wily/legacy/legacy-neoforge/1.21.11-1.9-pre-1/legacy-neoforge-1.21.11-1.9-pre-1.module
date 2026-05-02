@@ -1,0 +1,200 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "wily.legacy",
+    "module": "legacy-neoforge",
+    "version": "1.21.11-1.9-pre-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.2.18.release-3.2.18-79"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-neoforge",
+          "version": {
+            "requires": "1.21.11-2.2.8"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.14"
+          },
+          "excludes": [
+            {
+              "group": "commons-codec",
+              "module": "commons-codec"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpcore",
+          "version": {
+            "requires": "4.4.16"
+          }
+        },
+        {
+          "group": "commons-logging",
+          "module": "commons-logging",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-neoforge-1.21.11-1.9-pre-1.jar",
+          "url": "legacy-neoforge-1.21.11-1.9-pre-1.jar",
+          "size": 46100201,
+          "sha512": "d91a520c37d54ddfed0f683367c1479dcd8d7c5eeb38de63174fbe1821f4f58dd3b6ead26f7053c968d95d605d146effb2cccbab941578ebbb8125728e28d5b1",
+          "sha256": "dbfcc4e39b750847eae14d6d1253c566e40ef1552a7fd4a4f2fcfdbfe51890e4",
+          "sha1": "b5c12c48b20fed57b1cf4d96c99b95cf4d4fb5a3",
+          "md5": "c4b61e4d62dc494f6b2c8949ac799069"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.moulberry",
+          "module": "mixinconstraints",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.2.18.release-3.2.18-79"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-neoforge",
+          "version": {
+            "requires": "1.21.11-2.2.8"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.14"
+          },
+          "excludes": [
+            {
+              "group": "commons-codec",
+              "module": "commons-codec"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpcore",
+          "version": {
+            "requires": "4.4.16"
+          }
+        },
+        {
+          "group": "commons-logging",
+          "module": "commons-logging",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-neoforge-1.21.11-1.9-pre-1.jar",
+          "url": "legacy-neoforge-1.21.11-1.9-pre-1.jar",
+          "size": 46100201,
+          "sha512": "d91a520c37d54ddfed0f683367c1479dcd8d7c5eeb38de63174fbe1821f4f58dd3b6ead26f7053c968d95d605d146effb2cccbab941578ebbb8125728e28d5b1",
+          "sha256": "dbfcc4e39b750847eae14d6d1253c566e40ef1552a7fd4a4f2fcfdbfe51890e4",
+          "sha1": "b5c12c48b20fed57b1cf4d96c99b95cf4d4fb5a3",
+          "md5": "c4b61e4d62dc494f6b2c8949ac799069"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "legacy-neoforge-1.21.11-1.9-pre-1-sources.jar",
+          "url": "legacy-neoforge-1.21.11-1.9-pre-1-sources.jar",
+          "size": 43427452,
+          "sha512": "b333666e44b7a6b52917608c654db9790cb6b5f5b4effc488e7c87073b7befe62b36c5bd206c42b238ef18b30ba3d256f76b3124f27f7a825a4e38434e7f6f20",
+          "sha256": "8fdcc9939b2e268a66c436b2705cbd994ed06d75d0344958606fd4a36df17fc7",
+          "sha1": "b050519763fcc0f1c0dfb08b9a9e5fc16c07243c",
+          "md5": "c7469a4885d6d0f83c0189572316e0a8"
+        },
+        {
+          "name": "legacy-neoforge-1.21.11-1.9-pre-1-sources.jar",
+          "url": "legacy-neoforge-1.21.11-1.9-pre-1-sources.jar",
+          "size": 43427452,
+          "sha512": "b333666e44b7a6b52917608c654db9790cb6b5f5b4effc488e7c87073b7befe62b36c5bd206c42b238ef18b30ba3d256f76b3124f27f7a825a4e38434e7f6f20",
+          "sha256": "8fdcc9939b2e268a66c436b2705cbd994ed06d75d0344958606fd4a36df17fc7",
+          "sha1": "b050519763fcc0f1c0dfb08b9a9e5fc16c07243c",
+          "md5": "c7469a4885d6d0f83c0189572316e0a8"
+        }
+      ]
+    }
+  ]
+}
