@@ -1,0 +1,162 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "wily.factory_api",
+    "module": "factory_api-forge",
+    "version": "1.21.11-2.2.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "factory_api-forge-1.21.11-2.2.9.jar",
+          "url": "factory_api-forge-1.21.11-2.2.9.jar",
+          "size": 1157828,
+          "sha512": "0d61903f4c22d0d0b7ff58f444d0464bb97a582fa8b77df3312a5f3fdae85e4f310dd4347b6c48c6b2688bad3239afa5175831cce7306143cc3a12d01bf81306",
+          "sha256": "0bad14f5b5bc5a4f855d282525646fb9f50cd64824e379cc1bbdea1970534c15",
+          "sha1": "5b52a3d9ed9d69e775448328669fa0b2468a1509",
+          "md5": "f1951a21f6ee7271a723f392eb89526b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.minecraftforge",
+          "module": "forge",
+          "version": {
+            "requires": "1.21.11-61.0.6"
+          }
+        },
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-forge",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "factory_api-forge-1.21.11-2.2.9.jar",
+          "url": "factory_api-forge-1.21.11-2.2.9.jar",
+          "size": 1157828,
+          "sha512": "0d61903f4c22d0d0b7ff58f444d0464bb97a582fa8b77df3312a5f3fdae85e4f310dd4347b6c48c6b2688bad3239afa5175831cce7306143cc3a12d01bf81306",
+          "sha256": "0bad14f5b5bc5a4f855d282525646fb9f50cd64824e379cc1bbdea1970534c15",
+          "sha1": "5b52a3d9ed9d69e775448328669fa0b2468a1509",
+          "md5": "f1951a21f6ee7271a723f392eb89526b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "factory_api-forge-1.21.11-2.2.9-sources.jar",
+          "url": "factory_api-forge-1.21.11-2.2.9-sources.jar",
+          "size": 256911,
+          "sha512": "28cf5f8fdb985d446cc7fa164e083755f87c467373e86226cac3fda44ac3157cc99275102bf89f65bf066fa36e8a8d3668aff135b8e972110f7e85c4e7f13fd5",
+          "sha256": "022a0692268a24dc540ef8df343d052795318a56725a7fac2dd620f97cb536c0",
+          "sha1": "3636b205a74020189d67ba6062363cfa1a77e788",
+          "md5": "eae05db40e042633fa9b2f453f3b0268"
+        },
+        {
+          "name": "factory_api-forge-1.21.11-2.2.9-sources.jar",
+          "url": "factory_api-forge-1.21.11-2.2.9-sources.jar",
+          "size": 256911,
+          "sha512": "28cf5f8fdb985d446cc7fa164e083755f87c467373e86226cac3fda44ac3157cc99275102bf89f65bf066fa36e8a8d3668aff135b8e972110f7e85c4e7f13fd5",
+          "sha256": "022a0692268a24dc540ef8df343d052795318a56725a7fac2dd620f97cb536c0",
+          "sha1": "3636b205a74020189d67ba6062363cfa1a77e788",
+          "md5": "eae05db40e042633fa9b2f453f3b0268"
+        }
+      ]
+    },
+    {
+      "name": "jarJarRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.minecraftforge",
+          "module": "forge",
+          "version": {
+            "requires": "1.21.11-61.0.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "factory_api-forge-1.21.11-2.2.9.jar",
+          "url": "factory_api-forge-1.21.11-2.2.9.jar",
+          "size": 1157828,
+          "sha512": "0d61903f4c22d0d0b7ff58f444d0464bb97a582fa8b77df3312a5f3fdae85e4f310dd4347b6c48c6b2688bad3239afa5175831cce7306143cc3a12d01bf81306",
+          "sha256": "0bad14f5b5bc5a4f855d282525646fb9f50cd64824e379cc1bbdea1970534c15",
+          "sha1": "5b52a3d9ed9d69e775448328669fa0b2468a1509",
+          "md5": "f1951a21f6ee7271a723f392eb89526b"
+        }
+      ]
+    }
+  ]
+}
