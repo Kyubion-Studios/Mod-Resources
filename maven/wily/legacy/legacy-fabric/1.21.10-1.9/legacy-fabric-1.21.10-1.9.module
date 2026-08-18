@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "wily.legacy",
+    "module": "legacy-fabric",
+    "version": "1.21.10-1.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.2.18.release-3.2.18-79"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-fabric",
+          "version": {
+            "requires": "1.21.10-2.2.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-fabric-1.21.10-1.9.jar",
+          "url": "legacy-fabric-1.21.10-1.9.jar",
+          "size": 26109270,
+          "sha512": "33eac42cf74792f35e20e9b765dbd95a5632afaa8ee3c1072c5336443cbddce3e3a045727732e5d1796f0ba02dd070373e0091047387fdc62b0e28d8676e1d7b",
+          "sha256": "dd79fc5ab1a4f8b7f578c0b77e7bdb52f85b74d2bfff69c72a53c1373245e864",
+          "sha1": "e68b6234c04139655e90d4580f1f377c94993526",
+          "md5": "71a77cd31b83faff1ddbf90aa5e46f79"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.moulberry",
+          "module": "mixinconstraints",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "libsdl4j",
+          "version": {
+            "requires": "3.2.18.release-3.2.18-79"
+          }
+        },
+        {
+          "group": "wily.factory_api",
+          "module": "factory_api-fabric",
+          "version": {
+            "requires": "1.21.10-2.2.8"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.6"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.135.0+1.21.10"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "16.0.0-rc.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-fabric-1.21.10-1.9.jar",
+          "url": "legacy-fabric-1.21.10-1.9.jar",
+          "size": 26109270,
+          "sha512": "33eac42cf74792f35e20e9b765dbd95a5632afaa8ee3c1072c5336443cbddce3e3a045727732e5d1796f0ba02dd070373e0091047387fdc62b0e28d8676e1d7b",
+          "sha256": "dd79fc5ab1a4f8b7f578c0b77e7bdb52f85b74d2bfff69c72a53c1373245e864",
+          "sha1": "e68b6234c04139655e90d4580f1f377c94993526",
+          "md5": "71a77cd31b83faff1ddbf90aa5e46f79"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "legacy-fabric-1.21.10-1.9-sources.jar",
+          "url": "legacy-fabric-1.21.10-1.9-sources.jar",
+          "size": 24245746,
+          "sha512": "6d1badbccf90e50acdde20c253cd2c069dabddc188c35a362eb2459b4d0a5166e53079e881b7289e27a663a95fa92e7dabb37d8cb13b27bc4871d559aadc073a",
+          "sha256": "c21563c3af6fb1984112481dc288425f4d701e5380fa8d23a3b7899a93a61a5e",
+          "sha1": "545b6aac1a082db2c1db8a1286a6b033a5c54a04",
+          "md5": "9396420a931753750034d2da35160852"
+        }
+      ]
+    }
+  ]
+}
